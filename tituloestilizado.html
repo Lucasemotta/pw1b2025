@@ -54,12 +54,30 @@
             border: solid;
 
         }
+        #cabeca{
+            background-color: 1px #020202;
+            font-size: 16px;
+        }
 
         #oi{
             width: 300px;
             height: 150px;
             background-color: pink;
             border: red 2px;
+        }
+        #link2{
+            background-color: green;
+            color: white;
+            font-size: 14px;
+            border: rgb(2, 70, 2);
+            margin: 10px;
+        }
+        #tabela2{
+
+        }
+        .contato{
+            font-size: 24px;
+            color: rgb(2, 2, 131);
         }
 
     </style>
@@ -84,16 +102,15 @@
              <p id="borda"> Borda personalizada </p>
 
              <table id="tabela" border="2"> 
-                 <thead>
+                 <thead id="cabeca">
                      <tr>
-                        <th > Nome</th>
-                         <th > Sobrenome</th>
+                        <th> Nome</th>
+                         <th> Sobrenome</th>
                      </tr>
                  </thead>
                  <tbody>
-                    <td style="border: 2px solid black"> lucas </td>
-                    <td style="border: 2px solid black"> Eduardo </td>
-                     
+                    <td > lucas </td>
+                    <td > Eduardo </td>
                  </tbody>
              </table>
 
@@ -101,11 +118,25 @@
             <h1> Olá mundo  </h1> 
              </div>
 
+             <a href="ola"  id="link2">  link 2  </a>
+
+             <h1 class="contatos"> tabela de contato </h1>
+             <table style="width: 990px; border: 1px solid black; " >
+                <thead>
+                    <tr>
+                       <th> nome</th>
+                        <th> email</th>
+                        <th> telefone </th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <td > dado 1  </td>
+                   <td > dado 2  </td>
+                   <td > dado 3  </td>
+                </tbody>
+            </table>
 
 
-
-
-
-        
 
 </body>
+</html>
