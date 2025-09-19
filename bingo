@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartela</title>
+    <style>
+        body,html{
+            background-color: #cccccc;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+
+        }
+
+         table{
+            background-color: #ffff00;
+            padding: 50px 16px 50px 16px;
+         }
+         th,td{
+            font-size: 45pt;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center ;
+         }
+         td{
+            border: 1px solid black;
+            border-radius: 15px;
+         }
+         th{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+
+         .coringa{
+            padding: 0;
+            border:none;
+         }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th> B</th><!--coluba B-->
+                <th> I</th><!--coluba I-->
+                <th> N</th><!--coluba N-->
+                <th> G</th><!--coluba G-->
+                <th> O</th><!--coluba O-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>11</td><!--coluba 11-->
+                <td>19</td><!--coluba 19-->
+                <td>33</td><!--coluba 33-->
+                <td>59</td><!--coluba 59-->
+                <td>75</td><!--coluba 75-->
+            </tr>
+            <tr>
+                <td>9</td><!--coluba 9-->
+                <td>22</td><!--coluba 22-->
+                <td>44</td><!--coluba 44-->
+                <td>59</td><!--coluba 59-->
+                <td>69</td><!--coluba 69-->
+            </tr>
+            <tr>
+                <td>14</td><!--coluba 14-->
+                <td>17</td><!--coluba 17-->
+                <td class="coringa"> 
+                     <img src="imagens/dragonball-logo.jpg" width="60" height="60"/></td>
+                <td>50</td><!--coluba 50-->
+                <td>73</td><!--coluba 73-->
+            </tr>
+            <tr>
+                <td>4</td><!--coluba 4-->
+                <td>20</td><!--coluba 20-->
+                <td>39</td><!--coluba 39-->
+                <td>58</td><!--coluba 58-->
+                <td>70</td><!--coluba 70-->
+            </tr>
+            <tr>
+                <td>2</td><!--coluba 2-->
+                <td>21</td><!--coluba 21-->
+                <td>32</td><!--coluba 32--> 
+                <td>58</td><!--coluba 58-->
+                <td>71</td><!--coluba 71-->
+            </tr>
+        </tbody>
+
+
+    </table>
+    
+
+
+</body>
+</html>
