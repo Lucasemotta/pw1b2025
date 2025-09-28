@@ -1,6 +1,60 @@
 .card{
+    position: relative;
     border: 1px solid #000000;
-    background-color: #ffff00;
+    background-color: #ffffff;
     width: 268px;
     height: 474px;
 }
+
+.card-star {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ff9800;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right; 
+}
+
+.espaço {
+    height: 50px;
+    visibility: hidden;
+}
+
+.espaço2 {
+    height: 5px;
+    visibility: hidden;
+}
+
+.card-image img {
+    width: 50%;
+    height: auto;
+    position: center;
+    display: block; 
+    margin: 0 auto;
+}
+
+.card-desconto{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.risco {
+    text-decoration: line-through;
+}
+
+.card-price {
+    font-size: 25px;
+    display: inline;
+    justify-content: space-between;
+    padding: 0 px;
+
+
+}
+
+
+
+
+
