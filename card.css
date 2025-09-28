@@ -22,12 +22,12 @@
 }
 
 .espaço2 {
-    height: 5px;
+    height: 8px;
     visibility: hidden;
 }
 
 .card-image img {
-    width: 50%;
+    width: 60%;
     height: auto;
     position: center;
     display: block; 
@@ -35,7 +35,7 @@
 }
 
 .card-desconto{
-    font-size: 10px;
+    font-size: 11px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -46,11 +46,32 @@
 }
 
 .card-price {
-    font-size: 25px;
-    display: inline;
-    justify-content: space-between;
-    padding: 0 px;
+    font-size: 20px;
+   display: flex;
+    align-items: baseline;
+}
 
+.desconto{
+    font-size: 15px;
+    margin-left: 10px; 
+    color: rgb(255, 255, 255);
+    background-color: #ff6600;
+    border-radius: 11px;
+}
+
+.card-parcelamento{ 
+    font-size: 10px;
+}
+.botao{
+    width: 95%;            
+    height: 40px;          
+    background-color: #ff6600; 
+    color: #fff;
+    border: none;
+    font-size: 18px;           
+    border-radius: 6px;
+    margin-top: 40px;
+    
 
 }
 
