@@ -3,17 +3,23 @@
     border: 1px solid #000000;
     background-color: #ffffff;
     width: 268px;
-    height: 474px;
+    height: 455px;
+    border-radius: 10px;
+    
 }
 
 .card-star {
     position: absolute;
     top: 10px;
     right: 10px;
-    color: #ff9800;
+    color: #ff6600;
     font-size: 16px;
     font-weight: bold;
     text-align: right; 
+}
+
+.card-description{
+    margin-left: 6px;
 }
 
 .espaço {
@@ -32,6 +38,7 @@
     position: center;
     display: block; 
     margin: 0 auto;
+    
 }
 
 .card-desconto{
@@ -39,28 +46,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    margin-left: 6px;
 }
 
 .risco {
     text-decoration: line-through;
+     color: rgb(91, 91, 91);
 }
 
 .card-price {
-    font-size: 20px;
+    color: #ff6600;
+    font-size: 22px;
    display: flex;
     align-items: baseline;
+    margin-left: 6px;
 }
 
 .desconto{
     font-size: 15px;
     margin-left: 10px; 
-    color: rgb(255, 255, 255);
+    color: #fff;
     background-color: #ff6600;
     border-radius: 11px;
 }
 
 .card-parcelamento{ 
-    font-size: 10px;
+    font-size: 10px; 
+    margin-left: 6px;   
+    color: rgb(91, 91, 91);
 }
 .botao{
     width: 95%;            
@@ -68,11 +81,15 @@
     background-color: #ff6600; 
     color: #fff;
     border: none;
-    font-size: 18px;           
+    font-size: 15px;      
     border-radius: 6px;
     margin-top: 40px;
-    
+    margin-left: 6px;
+}
 
+a{
+  text-decoration: none;
+  color: white;
 }
 
 
