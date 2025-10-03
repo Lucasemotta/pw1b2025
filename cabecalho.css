@@ -1,0 +1,24 @@
+.cabeca{
+    background-color: rgb(148, 1, 1);
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: white;
+    margin: 20px;
+    font-size: 12PX;
+    
+}
+
+.imagem {
+    display: flex;
+  margin-left: 24%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+}
+
+body{
+    margin: 0;
+}
