@@ -95,12 +95,33 @@
         var b = []
         var i = []
         var n = []
-        for(var i= 31; i< 46; i++)
-        {
-            n.push (i)
-        }
         var g = []
         var o = []
+
+        function preencherLista (numeroInicial, numeroFinal)
+        {
+            var retorno = []
+            for (var i = numeroInicial; i<= numeroFinal; i++)
+            {
+                retorno.push(i)
+        
+            }
+        }
+
+        function numeroAleatorio (numeroMaximo, numeroMinimo)
+        {
+            var retorno = Math.random()
+            retorno = (retorno*numeroMaximo)
+            retorno = Math.floor (retorno)
+            if (retorno >= numeroMinimo)
+            {
+                return retorno
+            } else {
+                
+                return numeroAleatorio (numeroMinimo, numeroMaximo)
+            }
+        }
+        document.write ("<h1>" + numeroAleatorio (140,150)+ "<\h1>")
        
     </Script>
     
