@@ -1,81 +1,77 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #121212; /* Fundo escuro */
-    color: white;
+  background-color: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-    background-color: #1d1d1d;
-    padding: 20px 0;
-    text-align: center;
+.recursos {
+  text-align: center;
+  padding: 50px 20px;
 }
 
-.header-content .logo {
-    width: 200px;
+.recursos h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
 }
 
-nav ul {
-    list-style: none;
-    margin-top: 15px;
+.card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  width: 300px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: white;
 }
 
-.main-content {
-    padding: 50px 20px;
-    text-align: center;
+.card p {
+  font-size: 0.95em;
+  color: #ccc;
 }
 
-h1 {
-    font-size: 32px;
-    margin-bottom: 40px;
+.curiosidade {
+  background-color: #222;
+  border-left: 5px solid #b92c2c;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  transition: background-color 0.3s ease;
 }
 
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+.curiosidade:hover {
+  background-color: #2b2b2b;
 }
 
-.feature-item {
-    background-color: #222;
-    padding: 20px;
-    width: 300px;
-    border-radius: 8px;
-    text-align: left;
+.curiosidade h4 {
+  margin-bottom: 10px;
+  color: #ff4d4d;
+  font-size: 1.1em;
 }
 
-.feature-item img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.feature-item h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.feature-item p {
-    font-size: 14px;
-    line-height: 1.6;
+.curiosidade p {
+  color: #ddd;
+  font-size: 0.95em;
 }

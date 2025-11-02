@@ -72,5 +72,14 @@ header .logo {
     color:rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
-    
+
+}
+
+.zoom {
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
