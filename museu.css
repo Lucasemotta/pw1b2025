@@ -1,85 +1,147 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* ======== ESTILO BASE ======== */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b0b0b;
+  color: #f5f5f5;
+  overflow-x: hidden;
 }
 
+/* ======== CABEÇALHO ======== */
 header {
-    background-color: #e1000f; 
-    padding: 20px 0;
-    text-align: center;
+  background: linear-gradient(180deg, #b30000, #660000);
+  padding: 25px 0;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
-header .container {
-    max-width: 1200px;
-    margin: 0 auto;
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.8);
 }
 
-header .logo {
-    max-width: 150px;
-    height: auto;
-    border-radius: 150px;
-    justify-content: left;
-
+header h1 {
+  margin-top: 15px;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  text-shadow: 0 0 10px #b92c2c;
 }
 
-.content {
-    text-align: center;
-    padding: 50px 20px;
+/* ======== CONTEÚDO PRINCIPAL ======== */
+main {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.content h1 {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 30px;
+main h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ff4d4d;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
 
-.products {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+main p {
+  font-size: 1.1em;
+  color: #d3d3d3;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  text-align: justify;
 }
 
-.product {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
+/* ======== SEÇÃO DE PRODUTOS ======== */
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.product img {
-    width: 100%;
-    border-radius: 8px;
+/* ======== CARDS ======== */
+.card {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  overflow: hidden;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
-.product p {
-    font-size: 18px;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #333;
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(255, 77, 77, 0.5);
 }
 
-.logo2
-{
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 40px;
-
+.card img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-bottom: 3px solid #b92c2c;
+  justify-content: center;
 }
 
-.zoom {
-  width: 200px;
-  transition: transform 0.3s ease;
+.card h3 {
+  background: #121212;
+  margin: 0;
+  padding: 20px;
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  border-top: 1px solid #b92c2c;
 }
 
-.zoom:hover {
-  transform: scale(1.1);
+/* ======== RODAPÉ ======== */
+footer {
+  margin-top: 80px;
+  background-color: #111;
+  color: #bbb;
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9em;
+  border-top: 2px solid #b92c2c;
+}
+
+footer a {
+  color: #ff4d4d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* ======== DETALHES VISUAIS ======== */
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #b92c2c, transparent);
+  margin: 40px 0;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main, .card {
+  animation: fadeInUp 0.9s ease;
 }

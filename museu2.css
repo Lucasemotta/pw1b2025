@@ -8,19 +8,20 @@ body {
 
 .recursos {
   text-align: center;
-  padding: 50px 20px;
+  padding: 60px 20px;
 }
 
 .recursos h2 {
   font-size: 2em;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  color: #ff4d4d;
 }
 
 .card {
   background-color: #1e1e1e;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-  width: 300px;
+  width: 320px;
   margin: 0 auto 40px auto;
   padding: 20px;
   text-align: left;
@@ -29,7 +30,7 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 6px 15px rgba(255, 77, 77, 0.3);
 }
 
 .card img {
@@ -47,6 +48,7 @@ body {
 .card p {
   font-size: 0.95em;
   color: #ccc;
+  line-height: 1.5;
 }
 
 .curiosidade {
@@ -74,4 +76,5 @@ body {
 .curiosidade p {
   color: #ddd;
   font-size: 0.95em;
+  line-height: 1.5;
 }
